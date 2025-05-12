@@ -1,4 +1,4 @@
-
+---
 ## Revised Project Outline: Enterprise-Grade Research Chatbot (Local)
 
 This outline emphasizes clear separation of concerns, making the system more robust, testable, and easier to extend.
