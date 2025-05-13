@@ -461,15 +461,15 @@ research_chatbot/
 
 **`.gitignore` content (create this file in `research_chatbot/` root):**
 
-# Byte-compiled / optimized / DLL files
+### Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
 
-# C extensions
+### C extensions
 *.so
 
-# Distribution / packaging
+### Distribution / packaging
 .Python
 build/
 develop-eggs/
@@ -490,17 +490,17 @@ share/python-wheels/
 *.egg
 MANIFEST
 
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/version info into it.
+### PyInstaller
+###  Usually these files are written by a python script from a template
+###  before PyInstaller builds the exe, so as to inject date/version info into it.
 *.manifest
 *.spec
 
-# Installer logs
+### Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
 
-# Unit test / coverage reports
+### Unit test / coverage reports
 htmlcov/
 .tox/
 .nox/
@@ -514,7 +514,7 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 
-# Environments
+### Environments
 .env
 .venv/
 env/
@@ -523,7 +523,7 @@ ENV/
 env.bak/
 venv.bak/
 
-# VS Code
+### VS Code
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -531,27 +531,27 @@ venv.bak/
 !.vscode/extensions.json
 *.code-workspace
 
-# Local secrets and sensitive data
+### Local secrets and sensitive data
 secrets.yml
 *.local
 *.key
 *.pem
 
-# Models (if large and not versioned)
+### Models (if large and not versioned)
 models/*.gguf
 models/*.bin
 
-# Databases
+### Databases
 data/*.db
 data/*.sqlite
 data/*.sqlite3
 data/chroma_db_store/ # If Chroma is writing a lot here
 
-# Logs
+### Logs
 logs/
 *.log
 
-# OS generated files
+### OS generated files
 .DS_Store
 .DS_Store?
 ._*
