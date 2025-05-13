@@ -24,7 +24,7 @@
     * **Retriever:** This component is responsible for finding the most relevant information from your knowledge base (the research papers). It takes the user's query, turns it into an embedding, and uses a vector database to find the document chunks with the most similar embeddings.
         * *Key concept:* Similarity search (often cosine similarity) in vector space.
     * **Generator:** This is the LLM. It receives the user's query *and* the context retrieved by the Retriever.
-    * **Orchestrator:** The logic that coordinates the Retriever and Generator. It ensures the query is processed, context is fetched, the prompt is correctly formatted for the LLM, and the answer is returned. LangChain is a popular orchestrator.
+    * **Orchestrator:** The logic that coordinates the Retriever and Generator. It ensures the query is processed, context is fetched, the prompt is correctly formatted for the LLM, and the answer is returned. **LangChain is a popular orchestrator**.
     * **Why RAG?** It grounds the LLM's answers in specific documents, significantly reducing "hallucinations" (made-up answers) and making responses factual and verifiable based on the provided source material. It's more efficient and targeted than fine-tuning an LLM for domain-specific knowledge.
 
 ### 2. Deep Dive: Sophisticated Text Chunking Strategies for Research Papers
