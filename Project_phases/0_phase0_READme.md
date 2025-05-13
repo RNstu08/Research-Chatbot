@@ -463,8 +463,10 @@ research_chatbot/
 
 ### Byte-compiled / optimized / DLL files
 __pycache__/
+```
 *.py[cod]
 *$py.class
+```
 
 ### C extensions
 *.so
