@@ -458,10 +458,9 @@ research_chatbot/
 └── run.py                         # Main entry point to launch the Streamlit application
 ```
 
-```
 
 **`.gitignore` content (create this file in `research_chatbot/` root):**
-```
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
