@@ -469,9 +469,12 @@ __pycache__/
 ```
 
 ### C extensions
+```
 *.so
+```
 
 ### Distribution / packaging
+```
 .Python
 build/
 develop-eggs/
@@ -491,18 +494,24 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+```
 
 ### PyInstaller
 ###  Usually these files are written by a python script from a template
 ###  before PyInstaller builds the exe, so as to inject date/version info into it.
+```
 *.manifest
 *.spec
+```
 
 ### Installer logs
+```
 pip-log.txt
 pip-delete-this-directory.txt
+```
 
 ### Unit test / coverage reports
+```
 htmlcov/
 .tox/
 .nox/
@@ -515,8 +524,10 @@ coverage.xml
 *.py,cover
 .hypothesis/
 .pytest_cache/
+```
 
 ### Environments
+```
 .env
 .venv/
 env/
@@ -524,36 +535,48 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+```
 
 ### VS Code
+```
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
 *.code-workspace
+```
 
 ### Local secrets and sensitive data
+```
 secrets.yml
 *.local
 *.key
 *.pem
+```
 
 ### Models (if large and not versioned)
+```
 models/*.gguf
 models/*.bin
+```
 
 ### Databases
+```
 data/*.db
 data/*.sqlite
 data/*.sqlite3
 data/chroma_db_store/ # If Chroma is writing a lot here
+```
 
 ### Logs
+```
 logs/
 *.log
+```
 
 ### OS generated files
+```
 .DS_Store
 .DS_Store?
 ._*
